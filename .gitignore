@@ -2,7 +2,7 @@
 .env
 
 # wordpress files
-wordpress
+/wordpress/
 
 # mysql files
 dbdata

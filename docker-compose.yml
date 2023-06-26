@@ -3,7 +3,7 @@ services:
 
   wordpress:
     # default port 9000 (FastCGI)
-    image: wordpress:6.2.2-fpm
+    build: docker/wordpress/
     container_name: wp-wordpress
     env_file:
       - .env
