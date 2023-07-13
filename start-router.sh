@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-router.yml up --build -d
